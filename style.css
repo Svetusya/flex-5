@@ -1,0 +1,44 @@
+.flex{
+    max-width: 1386px;
+    font-family: 'Roboto', sans-serif;
+    background-color:beige ;
+    margin: 0 auto;
+}
+
+p{
+    margin: 0;
+    color: #000;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 130px 156px 164px;
+}
+
+.item_1{
+    flex-basis: 34%;  
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 71px;
+}
+
+.item_2{
+    flex-basis: 56%; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.part{
+    margin-bottom: 71px;
+}
+
+.item_3{
+    flex-basis: 100%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
